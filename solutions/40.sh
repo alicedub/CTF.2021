@@ -3,3 +3,6 @@
 # Response: 9
 
 grep -rnw ./transformers/src/transformers/* -e "import pandas" | wc -l
+
+#alternative
+grep "import pandas" `find transformers/ -type f` | wc -l
