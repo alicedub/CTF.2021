@@ -1,5 +1,5 @@
 #!/bin/bash
-# What is the path of the grep executable?
+# What are the directories with binary executables accessible to our user (ie PATH)?
 # response: bash
 #           cat
 #           date
