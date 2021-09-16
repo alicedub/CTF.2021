@@ -1,5 +1,4 @@
-#!/bin/bash
-# question: how many files in ./
-# answer: 5
-
-ssh ctf ls | wc -l
+#/!/bin/bash
+#How many files (excluding directories) are there in ~/?
+#response : 3
+ssh ctf ls -Aqn | grep -c '^-'
