@@ -1,5 +1,23 @@
 #!/bin/bash
-# What are the directories with binary executables accessible to our user (ie PATH)?
-# response: /bin
+# What is the path of the grep executable?
+# response: bash
+#           cat
+#           date
+#           echo
+#           find
+#           git
+#           grep
+#           head
+#           hostname
+#           ip
+#           ls
+#           mkdir
+#           sh
+#           tail
+#           uname
+#           uniq
+#           wc
+#           which
 
-echo $PATH
+
+ssh ctf ls /bin
