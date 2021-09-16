@@ -2,4 +2,4 @@
 # What is the last word in the file american-english-small?
 # Reponse: éclairs
 
-ssh ctf tail -1 american-english-small
+ssh ctf tail -n 1 american-english-small
